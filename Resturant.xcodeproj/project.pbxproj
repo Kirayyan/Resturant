@@ -10,9 +10,22 @@
 		4B1320B7283A2B7D00BDC414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1320B6283A2B7D00BDC414 /* AppDelegate.swift */; };
 		4B1320B9283A2B7D00BDC414 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1320B8283A2B7D00BDC414 /* SceneDelegate.swift */; };
 		4B1320BB283A2B7D00BDC414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1320BA283A2B7D00BDC414 /* ViewController.swift */; };
-		4B1320BE283A2B7D00BDC414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1320BC283A2B7D00BDC414 /* Main.storyboard */; };
 		4B1320C0283A2B7E00BDC414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1320BF283A2B7E00BDC414 /* Assets.xcassets */; };
 		4B1320C3283A2B7E00BDC414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1320C1283A2B7E00BDC414 /* LaunchScreen.storyboard */; };
+		4B1320CD283A2C2300BDC414 /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1320CC283A2C2300BDC414 /* AddOrderViewController.swift */; };
+		4B1320CF283A2C3F00BDC414 /* OrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1320CE283A2C3F00BDC414 /* OrderListViewController.swift */; };
+		4B1320D1283A2C5700BDC414 /* ViewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1320D0283A2C5700BDC414 /* ViewOrderViewController.swift */; };
+		4B1320D3283A2C6A00BDC414 /* EditOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1320D2283A2C6A00BDC414 /* EditOrderViewController.swift */; };
+		4B1320D5283A2C8000BDC414 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1320D4283A2C8000BDC414 /* OrderModel.swift */; };
+		4B1320D7283A2C9600BDC414 /* DBManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1320D6283A2C9600BDC414 /* DBManger.swift */; };
+		4B1320D9283A2CAD00BDC414 /* OrderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1320D8283A2CAD00BDC414 /* OrderListCell.swift */; };
+		4B1320DB283A2D4600BDC414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1320DA283A2D4600BDC414 /* Main.storyboard */; };
+		4B1320DE283A2DA800BDC414 /* Restaurant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B1320DC283A2DA800BDC414 /* Restaurant.xcdatamodeld */; };
+		4B1320E0283A307600BDC414 /* ChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1320DF283A307600BDC414 /* ChangeViewController.swift */; };
+		4B1320E2283A308D00BDC414 /* ShowStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1320E1283A308D00BDC414 /* ShowStatusViewController.swift */; };
+		4B1320E4283A30A300BDC414 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1320E3283A30A300BDC414 /* StatusViewController.swift */; };
+		4B1320E6283A30C300BDC414 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1320E5283A30C300BDC414 /* RecordViewController.swift */; };
+		4B1320E8283A30DD00BDC414 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1320E7283A30DD00BDC414 /* InformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +33,23 @@
 		4B1320B6283A2B7D00BDC414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B1320B8283A2B7D00BDC414 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4B1320BA283A2B7D00BDC414 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B1320BD283A2B7D00BDC414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B1320BF283A2B7E00BDC414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B1320C2283A2B7E00BDC414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B1320C4283A2B7E00BDC414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1320CC283A2C2300BDC414 /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
+		4B1320CE283A2C3F00BDC414 /* OrderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewController.swift; sourceTree = "<group>"; };
+		4B1320D0283A2C5700BDC414 /* ViewOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOrderViewController.swift; sourceTree = "<group>"; };
+		4B1320D2283A2C6A00BDC414 /* EditOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditOrderViewController.swift; sourceTree = "<group>"; };
+		4B1320D4283A2C8000BDC414 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		4B1320D6283A2C9600BDC414 /* DBManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManger.swift; sourceTree = "<group>"; };
+		4B1320D8283A2CAD00BDC414 /* OrderListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListCell.swift; sourceTree = "<group>"; };
+		4B1320DA283A2D4600BDC414 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4B1320DD283A2DA800BDC414 /* Restaurant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Restaurant.xcdatamodel; sourceTree = "<group>"; };
+		4B1320DF283A307600BDC414 /* ChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeViewController.swift; sourceTree = "<group>"; };
+		4B1320E1283A308D00BDC414 /* ShowStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowStatusViewController.swift; sourceTree = "<group>"; };
+		4B1320E3283A30A300BDC414 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		4B1320E5283A30C300BDC414 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		4B1320E7283A30DD00BDC414 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +85,23 @@
 				4B1320B6283A2B7D00BDC414 /* AppDelegate.swift */,
 				4B1320B8283A2B7D00BDC414 /* SceneDelegate.swift */,
 				4B1320BA283A2B7D00BDC414 /* ViewController.swift */,
-				4B1320BC283A2B7D00BDC414 /* Main.storyboard */,
+				4B1320CC283A2C2300BDC414 /* AddOrderViewController.swift */,
+				4B1320CE283A2C3F00BDC414 /* OrderListViewController.swift */,
+				4B1320D0283A2C5700BDC414 /* ViewOrderViewController.swift */,
+				4B1320D2283A2C6A00BDC414 /* EditOrderViewController.swift */,
+				4B1320D4283A2C8000BDC414 /* OrderModel.swift */,
+				4B1320D6283A2C9600BDC414 /* DBManger.swift */,
+				4B1320D8283A2CAD00BDC414 /* OrderListCell.swift */,
+				4B1320DA283A2D4600BDC414 /* Main.storyboard */,
 				4B1320BF283A2B7E00BDC414 /* Assets.xcassets */,
 				4B1320C1283A2B7E00BDC414 /* LaunchScreen.storyboard */,
 				4B1320C4283A2B7E00BDC414 /* Info.plist */,
+				4B1320DC283A2DA800BDC414 /* Restaurant.xcdatamodeld */,
+				4B1320DF283A307600BDC414 /* ChangeViewController.swift */,
+				4B1320E1283A308D00BDC414 /* ShowStatusViewController.swift */,
+				4B1320E3283A30A300BDC414 /* StatusViewController.swift */,
+				4B1320E5283A30C300BDC414 /* RecordViewController.swift */,
+				4B1320E7283A30DD00BDC414 /* InformationViewController.swift */,
 			);
 			path = Resturant;
 			sourceTree = "<group>";
@@ -127,7 +166,7 @@
 			files = (
 				4B1320C3283A2B7E00BDC414 /* LaunchScreen.storyboard in Resources */,
 				4B1320C0283A2B7E00BDC414 /* Assets.xcassets in Resources */,
-				4B1320BE283A2B7D00BDC414 /* Main.storyboard in Resources */,
+				4B1320DB283A2D4600BDC414 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +177,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1320E4283A30A300BDC414 /* StatusViewController.swift in Sources */,
+				4B1320D5283A2C8000BDC414 /* OrderModel.swift in Sources */,
+				4B1320D1283A2C5700BDC414 /* ViewOrderViewController.swift in Sources */,
+				4B1320CF283A2C3F00BDC414 /* OrderListViewController.swift in Sources */,
 				4B1320BB283A2B7D00BDC414 /* ViewController.swift in Sources */,
+				4B1320D3283A2C6A00BDC414 /* EditOrderViewController.swift in Sources */,
+				4B1320D7283A2C9600BDC414 /* DBManger.swift in Sources */,
+				4B1320E0283A307600BDC414 /* ChangeViewController.swift in Sources */,
+				4B1320DE283A2DA800BDC414 /* Restaurant.xcdatamodeld in Sources */,
+				4B1320E2283A308D00BDC414 /* ShowStatusViewController.swift in Sources */,
 				4B1320B7283A2B7D00BDC414 /* AppDelegate.swift in Sources */,
 				4B1320B9283A2B7D00BDC414 /* SceneDelegate.swift in Sources */,
+				4B1320E6283A30C300BDC414 /* RecordViewController.swift in Sources */,
+				4B1320D9283A2CAD00BDC414 /* OrderListCell.swift in Sources */,
+				4B1320CD283A2C2300BDC414 /* AddOrderViewController.swift in Sources */,
+				4B1320E8283A30DD00BDC414 /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4B1320BC283A2B7D00BDC414 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B1320BD283A2B7D00BDC414 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B1320C1283A2B7E00BDC414 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -358,6 +402,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B1320DC283A2DA800BDC414 /* Restaurant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B1320DD283A2DA800BDC414 /* Restaurant.xcdatamodel */,
+			);
+			currentVersion = 4B1320DD283A2DA800BDC414 /* Restaurant.xcdatamodel */;
+			path = Restaurant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4B1320AB283A2B7D00BDC414 /* Project object */;
 }
